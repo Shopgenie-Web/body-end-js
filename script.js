@@ -1,4 +1,3 @@
-<script>
 document.addEventListener("DOMContentLoaded", function() {
   // Function to find all FAQ schema scripts and merge them
   function mergeFAQSchemas() {
@@ -37,9 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Execute the merging function
   mergeFAQSchemas();
 });
-</script>
 
-<script>
 function updateViewport() {
   var viewportMeta = document.querySelector('meta[name="viewport"]');
   if (viewportMeta) {
@@ -61,4 +58,3 @@ var observer = new MutationObserver(function(mutations) {
 
 // Observe the document head for changes
 observer.observe(document.head, { childList: true, subtree: true });
-</script>
